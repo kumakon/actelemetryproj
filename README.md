@@ -14,10 +14,10 @@ python 3.10+
 
 
 HOW 2 RUN:  
-launch the game and get on the track (any car, make sure the track have tag "circuit")
-python ac_record.py — record (to stop press Ctrl + C), will create `session_*.csv`
-python plot_lap.py session_*.csv 2` — selected lap plot (2nd lap given as example)
-python analyze_laps.py session_*.csv` — compare laps and delta
+launch the game and get on the track (any car, make sure the track have tag "circuit")  
+python ac_record.py — record (to stop press Ctrl + C), will create `session_*.csv`  
+python plot_lap.py session_*.csv 2` — selected lap plot (2nd lap given as example)  
+python analyze_laps.py session_*.csv` — compare laps and delta  
 python corners.py session_*.csv` — _time loss on corner_  
 
 Also make sure you dont cut the track cuz comparing would not be correct.
